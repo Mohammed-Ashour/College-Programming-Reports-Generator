@@ -1,6 +1,6 @@
 # College-Programming-Reports-Generator
 Simple Script that generates pdf report from code files and  running screenshots
-The Script is simple to use , just run it and enter your :
+The Script is simple to use , just run the "report_generator.py" it and enter your :
 * Name
 * Section number
 * Report title
