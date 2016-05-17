@@ -1,5 +1,5 @@
 import os
-from pdf_report_maker import *
+from report_maker import *
 
 def main():
     code_files = get_files("codes")
