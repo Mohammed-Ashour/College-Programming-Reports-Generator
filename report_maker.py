@@ -3,7 +3,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
-import os , sys
+import os
 
 
 def get_files(dir):
@@ -72,10 +72,9 @@ def make_pdf_cover(student_name, student_section, report_subject, report_supervi
     name = "<font size=18>Name : {0}</font>".format(student_name)
     supervisor = "<font size=18>Supervised by :{0}</font>".format(report_supervisor) 
     section = "<font size=18>Section: {0}</font>".format(student_section)
-    report_subject = '<font size=30>{0}</font>'.format("Java Graphics Report")
-    title = '<font size=30>{0}</font>'.format("Java Graphics Report")
+    report_subject = '<font size=30>{0}</font>'.format(report_subject)
     #type the title
-    pdf_story.append(Paragraph(title, styles["Heading1"]))
+    pdf_story.append(Paragraph(report_subject, styles["Heading1"]))
     pdf_story.append(Spacer(440, 370))
     pdf_story.append(Spacer(100, 100))
     #type the name
