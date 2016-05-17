@@ -10,7 +10,7 @@ and it go to "codes" folder and get all the code files and gor to "images" file 
 ## Dependancies
 the Script is written using 
 * Python 3.4
-* Reportlab liberary
+* Reportlab library
 
 the 2 folders contain some college codes for testing :D feel free to Delete them all :D 
 
